@@ -157,7 +157,6 @@ public class MainWindow extends javax.swing.JFrame {
         // TODO add your handling code here:
         try {
             URI uri = new URI("https://github.com/theanasuddin");
-            
             if (Desktop.isDesktopSupported()) {
                 Desktop desktop = Desktop.getDesktop();
                 desktop.browse(uri);
